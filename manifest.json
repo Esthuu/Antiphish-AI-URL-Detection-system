@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Phishing URL Risk Detector",
+  "version": "1.0",
+  "description": "Rule-based phishing risk detection using URL and webpage behavior analysis",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
